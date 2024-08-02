@@ -16,3 +16,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Build
 
 - This has been build with React so if want to open locally need to install React.
+
+## Links
+
+- Github URL: [My solution](https://github.com/Jani-B/rock-paper-game)
+- Live Site (Netlify) URL: [My Live site](https://handsgame.netlify.app/)
