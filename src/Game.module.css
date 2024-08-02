@@ -1,0 +1,84 @@
+.opponentChoise {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.computerEmoji {
+  font-size: 32px;
+}
+
+.vs {
+  color: white;
+  font-size: 30px;
+}
+
+.yourChoise {
+  color: white;
+  font-size: 20px;
+}
+
+.containerChoises {
+  padding: 1rem;
+}
+
+.buttonOfChoise {
+  background-color: hsl(61, 70%, 52%);
+  padding: 0.5rem 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.count p {
+  display: inline;
+  margin: 0 0.7rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.count {
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 769px) {
+  .gameContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 1fr;
+  }
+
+  .count {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+  }
+
+  .containerChoises {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .buttonOfChoise {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-size: 60px;
+  }
+
+  .yourChoise{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: center;
+
+  }
+
+  .opponentChoise {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    align-self: center;
+  }
+
+
+
+
+}
