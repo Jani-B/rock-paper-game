@@ -52,10 +52,11 @@ const TheGame = () => {
   return (
     <div className={styles.gameContainer}>
       <div className={styles.opponentChoise}>
-        <p> Your Opponent chose</p>
+        <p className={styles.opponentText}> Your Opponent chose</p>
         <span className={styles.computerEmoji}>{computerChoise.emoji}</span>
+        <p className={styles.opponentTextHidden}> Your Opponent chose</p>
       </div>
-      <div>
+      <div className={styles.vsContainer}>
         <p className={styles.vs}>{result}</p>
       </div>
       <div className={styles.yourChoise}>
