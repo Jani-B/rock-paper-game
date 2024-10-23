@@ -60,7 +60,7 @@
 
   .containerChoises {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 2 / 2;
   }
 
   .buttonOfChoise {
@@ -86,6 +86,7 @@
     grid-column: 4 / 5;
     grid-row: 2 / 3;
     align-self: center;
+    margin-right: 1rem;
   }
 
   .computerEmoji {
@@ -98,5 +99,12 @@
 
   .opponentText {
     display: none;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .buttonOfChoise {
+    margin-bottom: 8px;
+    font-size: 5vh;
   }
 }
